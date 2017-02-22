@@ -19,4 +19,4 @@ var contactUrl = "http://reddit.com/u/mathwizx2";
 // URL of your PGL trainer icon (optional)
 // ***********************************************************************************
 // Download it from the Pokémon Global Link and re-upload to an image-sharing website
-var trainerIconUrl = "http://i.imgur.com/6aYGfCp.png";
+var trainerIconUrl = "https://raw.githubusercontent.com/razator73/poke-trade-sheet/master/static/trainerpic.png";

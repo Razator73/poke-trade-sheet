@@ -1010,17 +1010,17 @@ $(document).ready(function() {
             trainerInfo += "<dl>";
             if (inGameName) {
                 trainerInfo += "<dt><abbr title=\"In-Game Name\">IGN</abbr></dt>";
-                trainerInfo += "<dd>" + inGameName + "</dd>";
+                trainerInfo += "<dd>" + inGameName + "</dd><br>";
             }
             if (friendCode) {
                 trainerInfo += "<dt><abbr title=\"Friend Code\">FC</abbr></dt>";
-                trainerInfo += "<dd>" + friendCode + "</dd>";
+                trainerInfo += "<dd>" + friendCode + "</dd><br>";
             }
-//             trainerInfo += "<dt><abbr title=\"Trainer Shiny Value\">TSV</abbr></dt>";
-//             trainerInfo += "<dd><a href=\"https://www.reddit.com/r/SVExchange/comments/5uyj7n/3251/\">Moon 3251</a>, ";
-//             trainerInfo += "<a href=\"https://www.reddit.com/r/SVExchange/comments/5uylqw/1696\">Y 1696</a>, ";
-//             trainerInfo += "<a href=\"\">OR 0117</a></dd>";
-//             trainerInfo += "</dl>";
+            trainerInfo += "<dt><abbr title=\"Trainer Shiny Value\">TSV</abbr></dt>";
+            trainerInfo += "<dd><a href=\"https://www.reddit.com/r/SVExchange/comments/5uyj7n/3251/\">Moon 3251</a>, ";
+            trainerInfo += "<a href=\"https://www.reddit.com/r/SVExchange/comments/5uylqw/1696\">Y 1696</a>, ";
+            trainerInfo += "<a href=\"\">OR 0117</a></dd>";
+            trainerInfo += "</dl>";
             $("#trainer-info").prepend(trainerInfo);
         }
         // display Pokémon

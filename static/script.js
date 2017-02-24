@@ -1006,7 +1006,7 @@ $(document).ready(function() {
             if (!trainerIconUrl) {
                 trainerIconUrl = "static/blank.gif";
             }
-            trainerInfo += "<img src=\"" + trainerIconUrl + "\" alt=\"\" width=\"48\" height=\"48\">";
+            trainerInfo += "<img src=\"" + trainerIconUrl + "\" alt=\"\" width=\"64\" height=\"64\">";
             trainerInfo += "<dl>";
             if (inGameName) {
                 trainerInfo += "<dt><abbr title=\"In-Game Name\">IGN</abbr></dt>";
@@ -1016,6 +1016,10 @@ $(document).ready(function() {
                 trainerInfo += "<dt><abbr title=\"Friend Code\">FC</abbr></dt>";
                 trainerInfo += "<dd>" + friendCode + "</dd>";
             }
+            trainerInfo += "<dt><abbr title=\"Trainer Shiny Value\">TSV</abbr></dt>";
+            trainerInfo += "<dd><a href=\"https://www.reddit.com/r/SVExchange/comments/5uyj7n/3251/\">Moon 3251</a>, ";
+            trainerInfo += "<a href=\"https://www.reddit.com/r/SVExchange/comments/5uylqw/1696\">Y 1696</a>, ";
+            trainerInfo += "<a href=\"\">OR 0117</a></dd>";
             trainerInfo += "</dl>";
             $("#trainer-info").prepend(trainerInfo);
         }

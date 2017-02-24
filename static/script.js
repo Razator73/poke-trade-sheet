@@ -1006,7 +1006,7 @@ $(document).ready(function() {
             if (!trainerIconUrl) {
                 trainerIconUrl = "static/blank.gif";
             }
-            trainerInfo += "<img src=\"" + trainerIconUrl + "\" alt=\"\" width=\"88\" height=\"88\">";
+            trainerInfo += "<img src=\"" + trainerIconUrl + "\" alt=\"\" width=\"48\" height=\"48\">";
             trainerInfo += "<dl>";
             if (inGameName) {
                 trainerInfo += "<dt><abbr title=\"In-Game Name\">IGN</abbr></dt>";

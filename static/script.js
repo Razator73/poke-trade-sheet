@@ -1019,9 +1019,9 @@ $(document).ready(function() {
             trainerInfo += "<dt><abbr title=\"Trainer ID\">TID</abbr></dt>";
             trainerInfo += "<dd>Moon - 199459, Y - 09372, OR - 52812</dd><br>";
             trainerInfo += "<dt><abbr title=\"Trainer Shiny Value\">TSV</abbr></dt>";
-            trainerInfo += "<dd><a href=\"https://www.reddit.com/r/SVExchange/comments/5uyj7n/3251/\">Moon 3251</a>, ";
-            trainerInfo += "<a href=\"https://www.reddit.com/r/SVExchange/comments/5uylqw/1696\">Y 1696</a>, ";
-            trainerInfo += "<a href=\"\">OR 0117</a></dd>";
+            trainerInfo += "<dd><a href=\"https://www.reddit.com/r/SVExchange/comments/5uyj7n/3251/\">Moon - 3251</a>, ";
+            trainerInfo += "<a href=\"https://www.reddit.com/r/SVExchange/comments/5uylqw/1696\">Y - 1696</a>, ";
+            trainerInfo += "<a href=\"https://www.reddit.com/r/SVExchange/comments/5uyp3f/0117/\">OR - 0117</a></dd>";
             trainerInfo += "</dl>";
             $("#trainer-info").prepend(trainerInfo);
         }

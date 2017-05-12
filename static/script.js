@@ -807,7 +807,7 @@ function displayPokemon(){
             row += "</td>";
             // Egg Moves
             row += "<td class=\"moves" +  (pokemon.moves.length === 0 && isForIndividualPokemon ? " hidden" : '') + "\">" + pokemon.moves.join(', ') + "</td>";      
-            row += "<td class=\"egg-moves" +  (pokemon.eggMoves.length > 0 || !isForIndividualPokemon ? " hidden" : '') + "\">" + pokemon.eggMoves.join(', ') + "</td>";       
+            row += "<td class=\"egg-moves" +  (pokemon.moves.length > 0 || !isForIndividualPokemon ? " hidden" : '') + "\">" + pokemon.eggMoves.join(', ') + "</td>";       
             // Poké Balls
             row += "<td class=\"poke-balls rows" + Math.ceil(pokemon.balls.length / 3) + "\">";
             for (var i = 0; i < pokemon.balls.length; i++) {

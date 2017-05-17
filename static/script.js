@@ -291,7 +291,7 @@ function getSpriteClass(pokemon) {
     }
     if (pokemon.form) {
         switch (pokemon.form) {
-            case "A ":
+            case "A Form":
             case "Normal Forme":
             case "Plant Cloak":
             case "West Sea":

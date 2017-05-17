@@ -718,7 +718,11 @@ function displayPokemon(){
                  row += " <span class=\"gender male\" title=\"Male\">&#x2642;</span>";
             }
             if (pokemon.form) {
-                row += "<br><span class=\"form\">" + pokemon.form + "</span>";
+                if(pokemon.name == 'Unown' && pokemon.form != 'Exclamation Mark' && pokemon.form != 'Question Mark'){
+                    row += "<br><span class=\"form\">" + pokemon.form.substring(0, pokemon.form.lastIndexOf(" ")) + "</span>";
+                } else {
+                    row += "<br><span class=\"form\">" + pokemon.form + "</span>";
+                }
             }
             row += "</td>";
             // Trainer

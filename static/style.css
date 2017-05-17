@@ -633,8 +633,8 @@ td.rows4 .item-sprite.row3 { margin:0 0.125em; }
 .menu-sprite.unown-x{background-position:-900px -330px}
 .menu-sprite.unown-y{background-position:-930px -330px}
 .menu-sprite.unown-z{background-position:-900px -360px}
-.menu-sprite.unown-excl{background-position:-930px -360px}
-.menu-sprite.unown-quest{background-position:-900px -390px}
+.menu-sprite.unown-exclamation{background-position:-930px -360px}
+.menu-sprite.unown-question{background-position:-900px -390px}
 .menu-sprite.wobbuffet{background-position:-240px -210px}
 .menu-sprite.girafarig{background-position:-270px -210px}
 .menu-sprite.pineco{background-position:-300px -210px}
